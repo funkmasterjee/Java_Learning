@@ -41,7 +41,7 @@ public class MyNumber {
 
         for (int i = 2; i <= number - 1; i++) {
             if (number % i == 0) {
-                sumOfDivisors = i + i;
+                sumOfDivisors = sumOfDivisors + i;
                 //return sumOfDivisors;
             }
         }
