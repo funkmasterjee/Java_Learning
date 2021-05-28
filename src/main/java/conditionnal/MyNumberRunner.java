@@ -14,5 +14,8 @@ public class MyNumberRunner {
 
         int sumOFDivisors = number.sumOfDivisors();
         System.out.println("The value of sumOfDivisor is " + sumOFDivisors);
+
+        number.printNumberTriangle();
+        //System.out.println("The triangle sum of number is " + printNumberTriangle );
     }
 }
